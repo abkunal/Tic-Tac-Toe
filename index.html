@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          Would you like to choose X or O?
+        </div>
+
+        <div class="modal-footer">
+          <center>
+            <button id="button1" type="button" class="btn btn-primary" data-dismiss="modal">X</button>
+            <button id="button2" type="button" class="btn btn-info" data-dismiss="modal">O</button>
+          </center>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="draw" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <center>Its a Draw</center>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="win" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <center>You Win!</center>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="lose" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <center>You Lose!</center>
+        </div>
+      </div>
+    </div>
+  </div>
+  <center>
+    <h1>Tic Tac Toe </h1><br>
+    <button class="btn btn-primary"><span class="reset">Reset</span></button>
+    <div class="container-fluid">
+      <div>
+        <h4>Player - <span id="player-score">0</span>&nbsp;&nbsp;
+
+          Computer - <span id="computer-score">0</span>
+        </h4>
+      </div>
+  </center><br>
+  <div class="row">
+
+    <div id="tic-tac" class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6">
+      <div id="first-row" class="row">
+        <div id="zero" class="col-xs-4 col-sm-4"></div>
+        <div id="one" class="col-xs-4 col-sm-4"></div>
+        <div id="two" class="col-xs-4 col-sm-4"></div>
+      </div>
+      <div id="second-row" class="row">
+        <div id="three" class="col-xs-4 col-sm-4"></div>
+        <div id="four" class="col-xs-4 col-sm-4"></div>
+        <div id="five" class="col-xs-4 col-sm-4"></div>
+      </div>
+      <div id="third-row" class="row">
+        <div id="six" class="col-xs-4 col-sm-4"></div>
+        <div id="seven" class="col-xs-4 col-sm-4"></div>
+        <div id="eight" class="col-xs-4 col-sm-4"></div>
+      </div>
+
+    </div>
+
+  </div><br>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

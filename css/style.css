@@ -1,0 +1,70 @@
+h1 {
+  font: italic 48px a;
+  color: #000080 ;
+}
+
+.reset {
+  font: italic 18px a;
+}
+
+h4 {
+  color: #006400;
+}
+
+body {
+  background-color: #E6E6FA ;
+}
+
+#tic-tac {
+  border: 2px solid #00008B;
+  box-shadow: 1px 5px 17px 3px rgba(100, 100, 200, 0.68);
+  border-radius: 20px;
+  background-color: #FAEBD7;
+  color: #C71585 ;
+}
+
+#first-row div {
+  min-height: 80px;
+  min-width: 70px;
+}
+#second-row div {
+  min-height: 80px;
+  min-width: 70px;
+}
+#third-row div {
+  min-height: 80px;
+  min-width: 70px;
+}
+
+#first-row {
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+#second-row {
+  border-bottom: 1px solid black;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+#third-row {
+  margin-bottom: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+#tic-tac div {
+  font-size: 48px;
+  text-align:center;
+}
+
+#zero, #three, #six {
+  border-right: 1px solid black;
+  margin-left: px;
+}
+
+#two, #five, #eight {
+  border-left: 1px solid black;
+}
+
